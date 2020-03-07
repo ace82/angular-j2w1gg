@@ -2,3 +2,18 @@
 <p>
   Bienvenidos a una PWA con angular :)
 </p>
+
+<ul>
+  <li *ngFor="let name of signos">{{name}}</li>
+</ul>
+
+
+<p>Ingrese su signo zodiacal para saber como sera su semana:</p>
+<input type="text" [(ngModel)]="eleccion">
+
+ <div [ngSwitch]= 'eleccion'>
+
+  <p *ngSwitchCase = "'Aries'"> Esta semana cuidate con los postres y los vecinos espiones </p>
+
+ </div>
+

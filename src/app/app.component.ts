@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Ezequiel';
+  signos = [ 'Aries', 'Leo', 'Sagitario', 'Tauro', 'Virgo', 'Capricornio', 'Géminis', 'Libra', 'Acuario','Cáncer', 'Escorpio', 'Piscis'];
+
+  eleccion = 'magico';
 }
